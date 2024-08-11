@@ -44,7 +44,7 @@ jobs:
         run:   | 
           npm install -g vite
           npm install -g @angular/cli
-          npm install
+          npm install --force
           ng build
 
           FILE="dist/observatorio/browser/index.html"
