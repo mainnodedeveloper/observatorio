@@ -47,7 +47,7 @@ jobs:
           npm install
           ng build
 
-          FILE="dist/client/index.html"
+          FILE="dist/observatorio/browser/index.html"
           sed -i 's/src="\/\//src="\/observatorio\/\//g' "$FILE"
           sed -i 's/href="\/\//href="\/observatorio\/\//g' "$FILE"
           
